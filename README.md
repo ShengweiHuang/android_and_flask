@@ -3,7 +3,7 @@
 ## Requirement
 Server side:
 ```
-python 3
+python3
 flask
 ```
 ## How to run
