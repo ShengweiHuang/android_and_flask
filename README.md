@@ -18,7 +18,7 @@ add ```urlConnection.java``` into your project, and add these code to where you 
 urlConnect uc = new urlConnect(targetURL);
 uc.start();
 while (uc.getLockStatus()) {}
-return uc.getResult();
+String result = uc.getResult();
 ```
 targetURL means your server IP and port and url input parameters, here's an example
 ```
