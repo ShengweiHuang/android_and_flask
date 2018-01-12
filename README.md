@@ -13,6 +13,10 @@ add ```server_flask.py``` to your server
 python3 server_flask.py
 ```
 ### Client side:<br>
+add this line into ```AndroidManifest.xml``` to get internet permission
+```
+<uses-permission android:name="android.permission.INTERNET" />
+```
 add ```urlConnection.java``` into your project, and add these code to where you want to execute
 ```
 urlConnect uc = new urlConnect(targetURL);
